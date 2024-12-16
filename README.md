@@ -50,8 +50,8 @@ This repository contains the code implementation for UniMed-CLIP, a family of st
 
 Main contributions of our work are:
 1) **UniMed Dataset: An open-source, large-scale medical multi-modal dataset:** We develop UniMed using an LLM-in-the-loop framework, comprising over 5.3 million samples. It covers six diverse medical modalities and provides a robust foundation for training generalizable medical VLMs.
-2) **UniMed-CLIP VLMs:**  Building upon UniMed, we train family of contrastive VLMs which that significantly outperforms existing generalist VLMs and often matches modality-specific specialist VLMs.
-3) **Extensive evaluations and analysis:** We ablate on different design choices while developing both UniMed pretraining dataset and UnMed-CLIP VLMs. Furthermore, our training code, dataset, and model checkpoints are open-sourced to encourage further progress in medical VLMs.
+2) **UniMed-CLIP VLMs:**  Building upon UniMed, we train a family of contrastive VLMs which that significantly outperforms existing generalist VLMs and often matches modality-specific specialist VLMs.
+3) **Extensive evaluations and analysis:** We ablate on different design choices while developing both the UniMed pretraining dataset and UnMed-CLIP VLMs. Furthermore, our training code, dataset, and model checkpoints are open-sourced to encourage further progress in medical VLMs.
 
 
 | Method      | Paper    | X-ray | Retinal-Fundus | CT     | MRI  | US   | Histopathology | Avg.      |
@@ -74,11 +74,11 @@ Main contributions of our work are:
 
 ## Installation
 
-Before using UniMed-CLIP for training and inference, please refer to the installation instructions describe at [INSTALL.md](docs/INSTALL.md)
+Before using UniMed-CLIP for training and inference, please refer to the installation instructions described at [INSTALL.md](docs/INSTALL.md)
 
 ## Quick Start for inference with UniMed-CLIP models 
 
-We provide a [jupyter notebook](getting_started_unimed_clip.ipynb) for using pretrained UniMed-CLIP models for zero-shot classification across 6 diverse medical modalities. Additionally, we provide a sample code below for getting started.
+We provide a [jupyter notebook](getting_started_unimed_clip.ipynb) for using pretrained UniMed-CLIP models for zero-shot classification across 6 diverse medical modalities. Additionally, we provide a sample code below to get started.
 
 
 ```python
@@ -114,7 +114,7 @@ tokenizer = HFTokenizer(
     context_length=256,
     **{},)
 
-# Prepare text prompts using different class-names
+# Prepare text prompts using different class names
 text_prompts = ['CT scan image displaying the anatomical structure of the right kidney.',
                 'pneumonia is indicated in this chest X-ray image.', 
                 'this is a MRI photo of a brain.', 
@@ -231,7 +231,7 @@ We provide 3 model weights for UniMed-CLIP as listed in the table below. For lar
 
 | `model_name`       | `text encoder`                              |                                                                               `pretrained_weights`                                                                               | Res. |      GPUs       | Avg. score on 21 datasets |
 |:-------------------|:--------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|:---------------:|:-------------------------:|
-| ViT-B-16-quickgelu | BiomedNLP-BiomedBERT-base-uncased-abstract  |          [`unimed_clip_vit_b16`](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/uzair_khattak_mbzuai_ac_ae/Ee8EpjZS6SJGiZUrV7DyLxkBrVFir5YzMjYZIc8aEc2oUA?e=I7KvRb)           | 336  | 16 x A100 (40G) |           61.63           |
+| ViT-B-16-quickgelu | BiomedNLP-BiomedBERT-base-uncased-abstract  |          [`unimed_clip_vit_b16`](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/uzair_khattak_mbzuai_ac_ae/Ee8EpjZS6SJGiZUrV7DyLxkBrVFir5YzMjYZIc8aEc2oUA?e=I7KvRb)           | 224  | 16 x A100 (40G) |           61.63           |
 | ViT-L-14-quickgelu | BiomedNLP-BiomedBERT-large-uncased-abstract | [`unimed_clip_vit_l14_large_text_encoder`](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/uzair_khattak_mbzuai_ac_ae/Ea2CZ1dc_B9PsTHp5kAeUBsB-bncfRmjra63YDM0bn9JRw?e=hWxW1s) | 336  | 16 x A100 (40G) |           62.09           |
 | ViT-L-14-quickgelu | BiomedNLP-BiomedBERT-base-uncased-abstract  | [`unimed_clip_vit_l14_base_text_encoder`](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/uzair_khattak_mbzuai_ac_ae/EfeUk8TpOkNEsRDMIIYlxNcB_8swAJgt0Ix3igjxM2z_nw?e=3CnPKb)  | 336  | 16 x A100 (40G) |           64.84           |
 
@@ -244,11 +244,11 @@ Refer to the detailed instructions described in [UniMed-DATA.md](docs/UniMed-DAT
 
 ## Training UniMed-CLIP
 
-For training UniMed-CLIP, we provide different model configs in the `run_configs_400m.py`. Make sure to set required parameters in the config file (e.g., dataset paths). 
+For training UniMed-CLIP, we provide different model configs in the `run_configs_400m.py`. Make sure to set the required parameters in the config file (e.g., dataset paths). 
 
 We initialize image encoder and text encoder weights using MetaCLIP and BiomedBERT (uncased-abstract) models respectively. For example, to train UniMed-CLIP ViT-B/16 on UniMed dataset, run the following command:
 
-- Training UniMed-CLIP on single node with 8 GPUs
+- Training UniMed-CLIP on a single node with 8 GPUs
 ```
 # first download weights for metaclip, weights for BiomedBERT will be downloaded and loaded automatically
 wget https://dl.fbaipublicfiles.com/MMPT/metaclip/b16_400m.pt
