@@ -11,7 +11,7 @@ Shahina Kunhimon*](https://scholar.google.com/citations?hl=en&user=yYPksIkAAAAJ)
 
 *Equally contributing first authors
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]([https://arxiv.org/](https://arxiv.org/abs/2412.10372))
 [![Dataset](https://img.shields.io/badge/Dataset-Access-<COLOR>)](docs/UniMed-DATA.md)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](getting_started_unimed_clip.ipynb)
 
@@ -58,7 +58,7 @@ Main contributions of our work are:
 |-------------|----------|-------|----------------|--------|------|------|-----------|-----------|
 | BioMedCLIP  | [Link](https://arxiv.org/abs/2303.00915) |   55.43 |   22.87        | 43.99  |    64.59  |   49.20   |  54.50 | 49.02     |
 | PMC-CLIP    | [Link](https://arxiv.org/abs/2303.07240) |   52.64    |    25.84            | 66.06  | 63.68     |  62.51    |      53.56     | 53.37     |
-| UniMed-CLIP | [Link]() |     **68.78**  |    **31.23**      |  **85.54** |  **68.83**    |    **68.64**  |  **59.96**    | **61.63** |
+| UniMed-CLIP | [Link](https://arxiv.org/abs/2412.10372) |     **68.78**  |    **31.23**      |  **85.54** |  **68.83**    |    **68.64**  |  **59.96**    | **61.63** |
 
 
 ## Quick Links
@@ -287,7 +287,7 @@ If you find our work and this repository helpful, please consider giving our rep
 @inproceedings{khattakunimed,
    title={UniMed-CLIP: Towards a Unified Image-Text Pretraining Paradigm for Diverse Medical Imaging Modalities},
     author={khattak, Muhammad Uzair and Kunhimon, Shahina and Muzzamal, Naseer and Khan, Salman and Khan, Fahad Shahbaz},
-    journal={arXiv:0.0},
+    journal={arXiv:2412.10372},
     year={2024}
 }
 ```
