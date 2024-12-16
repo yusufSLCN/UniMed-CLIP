@@ -1,0 +1,165 @@
+Meniscal abnormality detected in MRI imaging of the knee.
+Chondral abnormality evident in the MRI image of the knee.
+MRI scan showing pathology of the medial collateral ligament (MCL) in the knee.
+Soft tissue fluid collection evident in the MRI of the knee.
+Fractured knee depicted in MRI imaging.
+MRI imaging depicts inflammation of the bone in the knee region.
+ACL pathology is evident in the MRI imaging of the knee..
+Pathological condition of the patella evident in the MRI image of the knee.
+MRI depicting intra-articular pathology of the knee.
+Quad pathology evident in the MRI of the knee.
+Post-operative ACL MRI scan of the knee.
+MRI imaging revealing edema within the soft tissues of the knee.
+MRI image demonstrating pathology of the posterior cruciate ligament (PCL) in the knee.
+MRI image displaying pathology of the fibular collateral ligament in the knee.
+MRI image depicts a hematoma in the knee region..
+Muscle strain is evident in the MRI image of the knee..
+Soft tissue mass identified in the knee on MRI imaging.
+Labral pathology identified in an MRI image of the shoulder..
+Supraspinatus pathology evident in MRI of the shoulder.
+Soft tissue fluid evident in an MRI image of the shoulder.
+Osteoarthritis visibly characterized in the shoulder joint on MRI imaging.
+Acromioclavicular joint osteoarthritis evident in MRI of the shoulder.
+Osseous lesion identified in the shoulder from MRI imaging.
+Subscapularis pathology depicted in MRI imaging of the shoulder.
+Postoperative MRI scan of the shoulder.
+Inflammatory changes noted within the marrow of the shoulder on MRI imaging.
+MRI image showing edema within the soft tissues of the shoulder.
+Infraspinatus pathology is evident in the MRI of the shoulder.
+MRI image depicting calcific tendinosis in the shoulder region.
+MRI scan demonstrating pathology of the biceps in the shoulder region.
+Chondral pathology evident in the MRI image of the hip.
+MRI image reveals labral pathology in the hip region.
+MRI image showing inflammation in the bone marrow of the hip.
+Fluid accumulation in soft tissues observed in the hip MRI image.
+Post-operative MRI scan of the hip demonstrating surgical changes.
+MRI image depicting a soft tissue mass in the hip region..
+Osseous disruption evident in the MRI image of the hip.
+Osseous lesion identified in the hip region on MRI imaging.
+Abductor pathology is evident in the MRI image of the hip.
+Soft tissue edema evident in MRI of the hip.
+Hematoma evident in the hip region on MRI imaging.
+Hamstring pathology is evident in the MRI image of the hip.
+Capsular pathology is evident in the MRI image of the hip..
+Cord pathology evident in MRI imaging of the spine.
+MRI reveals the presence of a dural epidural abnormality in the spine.
+Foraminal pathology evident in the MRI of the spine.
+Disc pathology evident in MRI imaging of the spine.
+Facet arthropathy is displayed in this MRI image of the spine..
+Cystic lesions identified on MRI imaging of the spine.
+Osseous abnormalities detected in the MRI of the spine.
+Image depicts scoliosis on an MRI of the spine.
+Chronic infarct evidenced in brain MRI imaging..
+White matter alterations observable on brain MRI imaging.
+Focal FLAIR hyperintensity observed in the brain MRI image.
+Arteriovenous anomaly depicted in the MRI of the brain.
+MRI imaging reveals cerebral edema.
+Acute infarct displayed in the MRI image of the brain.
+MRI image reveals extraneous tissue within the brain.
+MRI image showing intracranial abnormality in the brain.
+Pituitary lesion depicted in MRI imaging of the brain.
+MRI image showing signs of hepatic pathology.
+Adrenal pathology is evident in the MRI photo of the abdomen..
+Arterial pathology depicted in the MRI image of the abdomen.
+MRI image showing ascites in the abdominal cavity.
+MRI image showing ovarian pathology in the abdomen.
+Intraperitoneal mass evident in MRI abdominal imaging.
+MRI scan showing biliary dilatation in the abdomen.
+MRI imaging reveals a lesion on the liver.
+Bladder pathology depicted in MRI abdomen imaging.
+Abnormality in bowel structure as depicted in an MRI of the abdomen.
+MRI image depicting inflammation of the bowel.
+MRI image displaying a mass in the abdominal bowel region..
+Degenerative changes are evident in the MRI of the abdomen.
+MRI image showing dilation of the urinary tract.
+MRI image reveals organomegaly in the abdominal region.
+MRI image depicting gallbladder pathology in the abdominal region.
+Renal lesion is evident in the MRI of the abdomen.
+MRI photo reveals a uterine pathology in the abdominal scan.
+MRI depicts abnormal marrow in the abdomen..
+Osseous neoplasm identified in MRI of the abdomen.
+MRI image depicting a lesion in the pancreas.
+Prostate lesion depicted in MRI abdominal imaging..
+Soft tissue collection identified in MRI of the abdomen.
+Soft tissue mass observed in abdominal MRI imaging.
+Splenic lesion evident on MRI abdominal image.
+Gallstone identified on abdominal CT scan.
+Prostate lesion identified in CT imaging of the abdomen.
+The entire organ shows abnormalities on the CT scan of the abdomen..
+Pancreatic lesion identified using CT imaging of the abdomen.
+CT imaging reveals biliary dilation involving the abdomen.
+CT imaging shows dilation of the urinary tract..
+Urolithiasis identified in the abdominal CT scan.
+A computed tomography scan revealing an abnormality in the abdominal bowel.
+Bowel inflammation depicted on abdominal CT imaging.
+Osseous neoplasm identified in abdominal CT imaging.
+Liver lesion identified in CT scan of the abdomen.
+Renal lesion identified on abdominal CT scan..
+Post-operative changes observed in abdominal CT imaging.
+CT imaging reveals pathology of the uterus..
+Adrenal pathology identified on computed tomography of the abdomen.
+Ovarian pathology is evident in the CT scan of the abdomen..
+Arterial pathology identified in the abdominal CT scan.
+Ascites evidenced in CT imaging of the abdomen.
+Splenic lesion identified on the CT scan of the abdomen.
+Bladder pathology identified in CT imaging of the abdomen.
+A fat-containing tumor is depicted in the abdominal CT imaging..
+Degenerative changes identified in the abdomen on CT imaging.
+Soft tissue collection identified in the abdominal CT imaging..
+Gallbladder pathology identified on abdominal CT scan.
+Soft tissue mass identified on abdominal CT scan.
+An intraperitoneal mass is identified on the CT scan of the abdomen.
+A bowel mass is identified in the abdominal CT imaging..
+MRI image depicting an osseous disruption in the atrial fibrillation (AF) region..
+Bone inflammation depicted in MRI imaging of the forearm.
+Fluid accumulation in soft tissues evidenced in the MRI image.
+Osseous neoplasm depicted in MRI imaging of the foot.
+Chondral abnormality depicted in MRI imaging of the atrial fibrillation affected area.
+Plantar fascia pathology evident in MRI imaging.
+ATFL pathology depicted in MRI imaging of the ankle.
+MRI image depicting soft tissue edomain the ankle region..
+MRI image demonstrating a soft tissue mass in the atrial fibrillation area.
+Intra-atrial fibrillation observed in an MRI imaging.
+MRI image reveals a pathology in the extensor compartment of the forearm..
+Plantar plate tear evident in MRI imaging of the foot.
+Achilles pathology evident in MRI imaging of the ankle.
+Hematoma presented in an MRI image of the atrial fibrillation affected area.
+CFL pathology evident in the MRI image of the ankle.
+Peroneal pathology evidenced in MRI imaging.
+MRI image depicting pathology of the deltoid muscle.
+Post-operative MRI showing atrial fibrillation characteristics.
+Flexor pathology evident in MRI imaging of the forearm.
+MRI image showing a tumor characterized by fat content in the atrial fibrillation region.
+Pathology of syndesmosis depicted in an MRI image of the ankle..
+MRI image demonstrating Lisfranc pathology in a patient with atrial fibrillation.
+MRI reveals a coalition in the tarsal bones.
+MRI image depicting a spring ligament injury in a patient with atrial fibrillation.
+A CT scan of the abdomen shows no abnormalities..
+Normal abdominal MRI image showing no abnormalities.
+MRI image showing a normal atrial fibrillation pattern..
+MRI image depicts a normal brain structure..
+MRI image displays a normal hip structure.
+Normal appearance of the knee in MRI imaging.
+Normal anatomical structures are evident in this MRI image of the shoulder..
+Normal spinal anatomy depicted in MRI imaging..
+Fibroid identified in ultrasound imaging of the uterus..
+Ultrasound depiction of a kidney showing the renal structure..
+Ultrasound image depicting a healthy uterus..
+Ultrasound depicting ovarian morphology..
+The ultrasound image depicts pancreatitis involving the pancreas..
+Ultrasound scan showing liver morphology..
+Ultrasound depicting gallbladder pathology..
+Ultrasound imaging reveals common bile duct dilation.
+Ultrasound reveals an enlarged splean indicative of splenomegaly..
+The ultrasound reveals an image of the aorta..
+Ultrasound imaging depicting the Inferior Vena Cava (IVC).
+Bladder inflammation depicted in ultrasound imaging.
+Portal vein thrombosis evident in the ultrasound image of the portal vein..
+Ultrasound imaging reveals the structure of the thyroid gland..
+The CT scan displays normal lung anatomy without pathological findings..
+Airspace opacity is evident in the lung on the CT scan.
+A CT scan image showing a nodule in the lung tissue..
+Interstitial lung disease as depicted in a CT scan of the lung..
+Parenchyma destruction is evident in the lung from the CT scan.
+Bronchiectasis is evident in the CT scan of the lung.
+Ultrasound imaging reveals the structure of the thyroid gland..

@@ -1,0 +1,9 @@
+torch>=2.4.0
+torchvision
+regex
+ftfy
+tqdm
+webdataset>=0.2.5
+webdataset>=0.2.5
+pandas
+braceexpand

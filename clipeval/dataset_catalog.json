@@ -1,0 +1,151 @@
+{      "acl_mri": {
+        "path": "<path-to-test-set-folder>/acl_mri/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+      "meniscal_mri": {
+        "path": "<path-to-test-set-folder>/meniscal_mri/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+
+    "breast_us": {
+        "path": "<path-to-test-set-folder>/breast_us/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+  "thyroid_us": {
+        "path": "<path-to-test-set-folder>/thyroid_us/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+  "chexpert-5x200": {
+        "path": "<path-to-test-set-folder>/chexpert/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+      "rsna_pneumonia": {
+        "path": "<path-to-test-set-folder>/rsna_custom_test_set/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+  "radimagenet": {
+        "path": "<path-to-test-set-folder>/uzair/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+    "imagenet": {
+        "path": "<path-to-test-set-folder>/imagenet/images/",
+        "type": "imagefolder",
+        "train": "train",
+        "test": "val"
+    },
+      "CT_axial": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+        "CT_coronal": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+        "CT_sagittal": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "dr_regular": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "LC25000_lung": {
+        "path": "<path-to-test-set-folder>/LC25000_test/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "LC25000_colon": {
+        "path": "<path-to-test-set-folder>/LC25000_test/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "PCAM": {
+        "path": "<path-to-test-set-folder>/uzair/",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "NCK_CRC": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+  "BACH": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "SICAPv2": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+          "Osteo": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+
+          "skin_cancer": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+
+          "skin_tumor": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+
+  "refuge_retina": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+
+  "five_retina": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    },
+
+  "odir_retina": {
+        "path": "<path-to-test-set-folder>",
+        "type": "special",
+        "train": "train",
+        "test": "val"
+    }
+}
