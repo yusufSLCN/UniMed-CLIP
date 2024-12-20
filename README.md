@@ -11,7 +11,7 @@ Shahina Kunhimon*](https://scholar.google.com/citations?hl=en&user=yYPksIkAAAAJ)
 
 *Equally contributing first authors
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]([https://arxiv.org/](https://arxiv.org/abs/2412.10372))
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2412.10372)
 [![Dataset](https://img.shields.io/badge/Dataset-Access-<COLOR>)](docs/UniMed-DATA.md)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](getting_started_unimed_clip.ipynb)
 
@@ -284,11 +284,11 @@ Contact Muhammad Uzair (uzair.khattak@mbzuai.ac.ae) or Shahina Kunhimon (shahina
 If you find our work and this repository helpful, please consider giving our repo a star and citing our paper as follows:
 
 ```bibtex
-@inproceedings{khattakunimed,
-   title={UniMed-CLIP: Towards a Unified Image-Text Pretraining Paradigm for Diverse Medical Imaging Modalities},
-    author={khattak, Muhammad Uzair and Kunhimon, Shahina and Muzzamal, Naseer and Khan, Salman and Khan, Fahad Shahbaz},
-    journal={arXiv:2412.10372},
-    year={2024}
+@article{khattak2024unimed,
+  title={UniMed-CLIP: Towards a Unified Image-Text Pretraining Paradigm for Diverse Medical Imaging Modalities},
+  author={Khattak, Muhammad Uzair and Kunhimon, Shahina and Naseer, Muzammal and Khan, Salman and Khan, Fahad Shahbaz},
+  journal={arXiv preprint arXiv:2412.10372},
+  year={2024}
 }
 ```
 

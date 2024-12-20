@@ -25,8 +25,8 @@ $DATA/
 ```
 
 Datasets list:
-- [CheXpert](#chexpert)
-- [MIMIC-CXR](#mimic-cxr)
+- [CheXpert](#1.-CheXpert)
+- [MIMIC-CXR](#2.-mimic-cxr)
 - [OpenI](#openi)
 - [ChestX-ray8](#chestx-ray8)
 - [RadImageNet](#radimagenet)
@@ -43,7 +43,7 @@ We use the scripts provided in `data_prepration_scripts` for preparing UniMed da
   - Step 1: Download the dataset from the following [link](https://www.kaggle.com/datasets/ashery/chexpert) on Kaggle.
 
 #### Downloading Annotations:
-  - Download the processed text annotations file `chexpert_with_captions_only_frontal_view.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:x:/g/personal/uzair_khattak_mbzuai_ac_ae/EYodM9cCJTxNvr_KZsYKz3gB7ozvtdyoqfLhyF59y_UXsw?e=6iOdrQ), and put it to the main folder.
+  - Download the processed text annotations file `chexpert_with_captions_only_frontal_view.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof), and put it to the main folder.
   - The final directory structure should look like below.
 
 ```
@@ -66,7 +66,7 @@ CheXpert-v1.0-small/
   - Step 2: Then, download the 10 folders p10-p19 from [link](https://physionet.org/content/mimic-cxr-jpg/2.1.0/files/).
 
 #### Downloading Annotations:
-  - Download the processed text annotations folder `mimic_cxr_with_captions_and_reports_only_frontal_view.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:x:/g/personal/uzair_khattak_mbzuai_ac_ae/EVshorDt6OJLp4ZBTsqklSQBaXaGlG184AWVv3dIWfrAkA?e=lPsm7x), and put it to the main folder.
+  - Download the processed text annotations folder `mimic_cxr_with_captions_and_reports_only_frontal_view.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof), and put it to the main folder.
   - The final directory structure should look like below.
 ```
 mimic-cxr-jpg/2.0.0/files/
@@ -90,7 +90,7 @@ mimic-cxr-jpg/2.0.0/files/
   - Step 1 : Download the OpenI PNG dataset from the [link](https://openi.nlm.nih.gov/imgs/collections/NLMCXR_png.tgz).
 
 #### Downloading Annotations:
-  - Download the processed text annotations folder `openai_refined_concepts.json`, and `filter_cap.json` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=gCulCg), and put it to the main folder.
+  - Download the processed text annotations folder `openai_refined_concepts.json`, and `filter_cap.json` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof), and put it to the main folder.
   - The final directory structure should look like below.
 
 ```
@@ -111,7 +111,7 @@ openI/
   - Step 1: Download the images folder from the following [link](https://nihcc.app.box.com/v/ChestXray-NIHCC).
 
 #### Downloading Annotations:
-  - Download the processed text annotations folder `Chest-Xray8_with_captions.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:x:/g/personal/uzair_khattak_mbzuai_ac_ae/EVroaq0FiERErUlJsPwQuaoBprs44EwhHBhVH_TZ-A5PJQ?e=G6z0rf), and put it to the main folder.
+  - Download the processed text annotations folder `Chest-Xray8_with_captions.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof), and put it to the main folder.
   - The final directory structure should look like below.
 ```
 chest_xray8/
@@ -132,7 +132,7 @@ chest_xray8/
 
 
 #### Downloading Annotations:
-  - Download the processed text annotations folder `radimagenet_with_captions_training_set.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:x:/g/personal/uzair_khattak_mbzuai_ac_ae/Eaf_k0g3FOlMmz0MkS6LU20BrIpTvsRujXPDmKMWLv6roQ?e=0Po3OI), and put it to the main folder.
+  - Download the processed text annotations folder `radimagenet_with_captions_training_set.csv` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof), and put it to the main folder.
   - The final directory structure should look like below.
 
   - The directory structure should look like below.
@@ -170,12 +170,8 @@ For the retinal datasets, we select 35 Retinal datasets and convert the label on
 | [11_STARE](https://cecas.clemson.edu/~ahoover/stare/)                                                                                | [14_AGAR300](https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300) | [21_G1020](https://arxiv.org/abs/2006.09158)                                |     |                                                                                                                                                                 |     |
 
 
-
-* Vision-Language Pre-training.
-
-
 #### Downloading Annotations:
-  - Download the processed text annotations folder `Retina-Annotations` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Enxa-lnJAjZOtZHDkGkfLasBGfaxr3Ztb-KlP9cvTRG3OQ?e=Ac8xt9).
+  - Download the processed text annotations folder `Retina-Annotations` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof).
   - The directory structure should look like below.
 ```
 Retina-Datasets/
@@ -264,7 +260,7 @@ Note: LLaVA-Med provides image-text pairs, and we directly utilize their image-t
   - Download images by following instructions at LLaVA-Med official repository [here](https://github.com/microsoft/LLaVA-Med?tab=readme-ov-file#data-download).
 
 #### Downloading Annotations:
-  - Download the filtered caption files `llava_med_instruct_fig_captions.json`, and `llava_med_alignment_500k_filtered.json` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=gCulCg). The final directory should look like this:
+  - Download the filtered caption files `llava_med_instruct_fig_captions.json`, and `llava_med_alignment_500k_filtered.json` from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/Es0rzhS3MZNHg1UyB8AWPKgB5D0KcrRSOQOGYM7gDkOmRg?e=j6VHof). The final directory should look like this:
 
 ```
 llava_med/
