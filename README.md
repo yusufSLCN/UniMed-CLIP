@@ -13,6 +13,7 @@ Shahina Kunhimon*](https://scholar.google.com/citations?hl=en&user=yYPksIkAAAAJ)
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2412.10372)
 [![Dataset](https://img.shields.io/badge/Dataset-Access-<COLOR>)](docs/UniMed-DATA.md)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/UzairK/unimed-clip-medical-image-zero-shot-classification)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](getting_started_unimed_clip.ipynb)
 
 This repository contains the code implementation for UniMed-CLIP, a family of strong Medical Contrastive VLMs trained on the proposed UniMed-dataset. We further provide detailed instructions and annotation files for preparing UniMed Dataset for promoting open-source practices in advancing Medical VLMs.
@@ -21,6 +22,8 @@ This repository contains the code implementation for UniMed-CLIP, a family of st
 
 
 # Updates
+* **Dec 22, 2024**
+  * Demo released on Hugging Face spaces ([view demo](https://huggingface.co/spaces/UzairK/unimed-clip-medical-image-zero-shot-classification))
 * **Dec 13, 2024**
   * Annotations and code scripts for preparing the UniMed pretraining dataset are released.
   * UniMed-CLIP training and inference code are released, along with pretrained checkpoints.
@@ -78,7 +81,7 @@ Before using UniMed-CLIP for training and inference, please refer to the install
 
 ## Quick Start for inference with UniMed-CLIP models 
 
-We provide a [jupyter notebook](getting_started_unimed_clip.ipynb) for using pretrained UniMed-CLIP models for zero-shot classification across 6 diverse medical modalities. Additionally, we provide a sample code below to get started.
+We provide an online [hugging-face demo](https://huggingface.co/spaces/UzairK/unimed-clip-medical-image-zero-shot-classification) and [jupyter notebook](getting_started_unimed_clip.ipynb) for using pretrained UniMed-CLIP models for zero-shot classification across 6 diverse medical modalities. Additionally, we provide a sample code below to get started.
 
 
 ```python
@@ -224,6 +227,8 @@ CT scan image displaying the anatomical structure of the right kidney.: 4.427450
 ```
 </details>
 
+**Gradio Demo:**
+Additionally, you can run local-gradio demo by running the `python app.py` command. This will automatically set-up the demo (including pretrained weights downloading).
 
 ## Pre-trained Models
 
