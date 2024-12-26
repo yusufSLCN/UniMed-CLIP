@@ -3,7 +3,6 @@ torchvision
 regex
 ftfy
 tqdm
-webdataset>=0.2.5
-webdataset>=0.2.5
+webdataset==0.2.86
 pandas
 braceexpand
