@@ -143,7 +143,8 @@ with torch.no_grad():
     text_features = model.encode_text(texts)
     text_features = text_features / text_features.norm(dim=-1, keepdim=True)
     image_features = model.encode_image(images)
-    logits = (image_features @ text_features.t()).detach().softmax(dim=-1)
+    image_features = image_features / image_features.norm(dim=-1, keepdim=True)
+    logits = (model.logit_scale.exp() * image_features @ text_features.t()).detach().softmax(dim=-1)
     sorted_indices = torch.argsort(logits, dim=-1, descending=True)
 
     logits = logits.cpu().numpy()
@@ -164,6 +165,7 @@ for i, img in enumerate(test_imgs):
 
 <details>
 <summary>Outputs</summary>
+Note: The addition of the image feature normalization line in the demo code could cause slight fluctuations in the probabilities. However, the arg-max of predictions (rankings) remains the same. 
 
 ```python
 brain_MRI.jpg:
