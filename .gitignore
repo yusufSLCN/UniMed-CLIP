@@ -1,2 +1,6 @@
 *.pyc
 *.pt
+
+build
+
+src/open_clip_torch.egg-info
