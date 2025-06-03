@@ -283,7 +283,7 @@ class VisualTransformer(nn.Module):
     def set_grad_checkpointing(self, enable=True):
         self.transformer.grad_checkpointing = enable
 
-    def forward(self, x: torch.Tensor):
+    def forward(self, x: torch.Tensor, return_embeddings: bool = False):
         x = self.conv1(x)  # shape = [*, width, grid, grid]
         x = x.reshape(x.shape[0], x.shape[1], -1)  # shape = [*, width, grid ** 2]
         x = x.permute(0, 2, 1)  # shape = [*, grid ** 2, width]
@@ -296,6 +296,10 @@ class VisualTransformer(nn.Module):
         x = x.permute(1, 0, 2)  # NLD -> LND
         x = self.transformer(x)
         x = x.permute(1, 0, 2)  # LND -> NLD
+
+        if return_embeddings:
+            x = x @ self.proj
+            return x
 
         x = self.ln_post(x[:, 0, :])
 
@@ -420,7 +424,13 @@ class CLIP(nn.Module):
         self.visual.set_grad_checkpointing(enable)
         self.text_encoder.grad_checkpointing = enable
 
-    def encode_image(self, image):
+    # def encode_image(self, image):
+    #     return self.visual(image)
+    
+    def encode_image(self, image, return_embeddings=False):
+        if return_embeddings:
+            return self.visual(image, return_embeddings)
+        
         return self.visual(image)
 
 
